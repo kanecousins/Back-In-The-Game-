@@ -1,0 +1,332 @@
+<!doctype html>
+<html lang="en-AU">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>Assess &amp; Refer · Back in the Game</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body data-page="assess">
+    <!-- Shared navigation header: filled in by site.js -->
+    <div id="site-header"></div>
+
+    <main class="wrap">
+      <section id="v-assess">
+        <div class="kicker">Step 2</div>
+        <h1 class="page-title">Assess &amp; Refer</h1>
+        <div class="box red">
+          <h3>Red flags: escalate urgently</h3>
+          <p>
+            Night pain unrelated to position, fever or weight loss, neurological deficit or saddle
+            anaesthesia, significant trauma.
+          </p>
+        </div>
+        <div class="box warn">
+          <h3>Imaging is not the first step</h3>
+          <p>
+            Clinical diagnosis supported by imaging. Discuss referral with an experienced physiotherapist and
+            the medical team, and plan how you will explain the result first.
+          </p>
+        </div>
+        <h2>Examine: build a pattern, not a verdict</h2>
+        <p>
+          No single test is reliable. Stork test (best of 34): sensitivity 50–73%, specificity 0–87% (Alqarni
+          et al., 2015).
+        </p>
+        <div class="tw">
+          <table class="">
+            <thead>
+              <tr>
+                <th>Test</th>
+                <th>Reading</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Neuro screen</td>
+                <td>Deficit means urgent review</td>
+              </tr>
+              <tr>
+                <td>Extension, extension–rotation (standing, quadrant)</td>
+                <td>Familiar pain raises suspicion</td>
+              </tr>
+              <tr>
+                <td>Stork test</td>
+                <td>Positive raises suspicion; negative does not exclude</td>
+              </tr>
+              <tr>
+                <td>Sport-specific movement</td>
+                <td>Familiar pain adds to pattern</td>
+              </tr>
+              <tr>
+                <td>Hip and lumbopelvic screen</td>
+                <td>Not diagnostic; sets rehab targets</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <h2>What else could it be?</h2>
+        <div class="tw">
+          <table class="">
+            <thead>
+              <tr>
+                <th>Pattern</th>
+                <th>Consider</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Night pain, fever, systemic</td>
+                <td>Tumour, infection: urgent</td>
+              </tr>
+              <tr>
+                <td>Pain with flexion</td>
+                <td>Disc, apophysis; less likely spondylolysis</td>
+              </tr>
+              <tr>
+                <td>Acute, clear mechanism</td>
+                <td>Strain, vertebral fracture, disc</td>
+              </tr>
+              <tr>
+                <td>Persistent, non-mechanical</td>
+                <td>Scheuermann, inflammatory, psychosocial</td>
+              </tr>
+              <tr>
+                <td>Structural change</td>
+                <td>Scoliosis, slip: medical assessment</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p class="cite">
+          Groupings from More &amp; John (2014). Also ask about load, growth, family history and, sensitively,
+          bone health and energy availability (Mountjoy et al., 2023).
+        </p>
+        <h2>Build suspicion and decide</h2>
+        <p>
+          A reasoning aid, not a validated rule. Discuss with an experienced physiotherapist if you are still
+          unsure.
+        </p>
+        <div class="box info">
+          <h3>Indicators present: <span id="indcount">0</span> of 6</h3>
+          <ul class="checks" id="ind">
+            <li>
+              <input type="checkbox" id="ind0" /><label for="ind0"
+                >Adolescent athlete with a relevant loading pattern</label
+              >
+            </li>
+            <li>
+              <input type="checkbox" id="ind1" /><label for="ind1"
+                >Insidious, activity-related, eased by rest</label
+              >
+            </li>
+            <li>
+              <input type="checkbox" id="ind2" /><label for="ind2">Recent load spike or growth spurt</label>
+            </li>
+            <li>
+              <input type="checkbox" id="ind3" /><label for="ind3"
+                >Familiar pain with extension or extension–rotation</label
+              >
+            </li>
+            <li>
+              <input type="checkbox" id="ind4" /><label for="ind4"
+                >Positive stork test on the symptomatic side</label
+              >
+            </li>
+            <li>
+              <input type="checkbox" id="ind5" /><label for="ind5">Familiar pain with sport movement</label>
+            </li>
+          </ul>
+        </div>
+        <div class="tw">
+          <table class="">
+            <thead>
+              <tr>
+                <th>What you find</th>
+                <th>Next step</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Any red flag</td>
+                <td>Urgent escalation to an experienced physiotherapist and the medical team</td>
+              </tr>
+              <tr>
+                <td>Several indicators, including extension-provoked pain</td>
+                <td>
+                  Treat as suspected. Modify provocative load and begin Phase 1 under supervision. Discuss
+                  imaging.
+                </td>
+              </tr>
+              <tr>
+                <td>Some indicators</td>
+                <td>Modify load, reassess in 2–4 weeks, revisit the differential</td>
+              </tr>
+              <tr>
+                <td>Few indicators</td>
+                <td>Reconsider the diagnosis</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <h3>Example decision pathway</h3>
+        <div
+          class="flow"
+          role="img"
+          aria-label="Decision pathway from red flag screen to rehabilitation phases"
+        >
+          <div class="fb dark">Adolescent athlete with activity-related low back pain</div>
+          <div class="arrow">↓</div>
+          <div class="fb a">
+            <b>1. Screen for red flags</b><br />night pain, systemic symptoms, neurological signs, major
+            trauma
+          </div>
+          <div class="arrow">
+            ↓ any present → <b>urgent escalation to an experienced physiotherapist and the medical team</b> ·
+            none ↓
+          </div>
+          <div class="fb">
+            <b>2. History and multi-test examination</b><br />What raises or lowers suspicion? What else could
+            this be?
+          </div>
+          <div class="arrow">↓</div>
+          <div class="flow3">
+            <div class="fb g">
+              <b>Suspicion high</b><br />several indicators, including extension-provoked pain<br />→ modify
+              load, begin Phase 1 under supervision, prepare athlete and family
+            </div>
+            <div class="fb a">
+              <b>Suspicion possible</b><br />some indicators<br />→ modify load, reassess in 2–4 weeks
+            </div>
+            <div class="fb s"><b>Suspicion low</b><br />→ reconsider the diagnosis</div>
+          </div>
+          <div class="arrow">↓</div>
+          <div class="fb">
+            <b>3. Discuss referral and imaging</b> with an experienced physiotherapist and the treating
+            medical team (local protocols; will it change management?)
+          </div>
+          <div class="arrow">↓</div>
+          <div class="fb">
+            <b>4. Interpret the result and communicate</b><br />stress reaction · fracture · chronic defect ·
+            slip (needs specialist grading first)
+          </div>
+          <div class="arrow">↓</div>
+          <div class="fb dark">Rehabilitation phases 1–4 by criteria, then return-to-sport checklists</div>
+        </div>
+        <p class="small">
+          Example pathway only. Adapt to local protocols and an experienced physiotherapist's advice.
+        </p>
+        <details>
+          <summary>Imaging: discuss before you refer</summary>
+          <div>
+            <ul>
+              <li><b>X-ray:</b> sensitivity about 33%; can miss early injury</li>
+              <li><b>MRI:</b> shows oedema; some false negatives first-line</li>
+              <li><b>CT:</b> best cortical detail; radiation in the young</li>
+            </ul>
+            <p class="cite">
+              StatPearls; Brearley et al. (2021). Do not scan to confirm healing: it is not a trial return
+              criterion.
+            </p>
+          </div>
+        </details>
+        <h2>Say this, not that</h2>
+        <div class="tw">
+          <table class="">
+            <thead>
+              <tr>
+                <th>Avoid</th>
+                <th>Prefer</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>“You have a broken back.”</td>
+                <td>
+                  “This is a stress injury in a growing bone from repeated load. It is common in young
+                  athletes, and we know how to help it recover.”
+                </td>
+              </tr>
+              <tr>
+                <td>“It’s nothing, just a scan finding.”</td>
+                <td>
+                  “Your pain is real. The finding may be part of the explanation, and we will use how you move
+                  and feel alongside it.”
+                </td>
+              </tr>
+              <tr>
+                <td>“It may never heal.”</td>
+                <td>
+                  “It may or may not fully join, and many people recover and return to sport either way.”
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p>
+          Clinician messages shape back beliefs for years (Darlow et al., 2013). Validate, state what is known
+          and unknown, and agree one first step.
+        </p>
+        <details>
+          <summary>When things do not go to plan</summary>
+          <div>
+            <div class="tw">
+              <table class="">
+                <thead>
+                  <tr>
+                    <th>Situation</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Pain not settling</td>
+                    <td>
+                      Check dose, technique, unplanned load, sleep and stress, beliefs. Re-examine and review
+                      the diagnosis with an experienced physiotherapist. One protocol repeats imaging only if
+                      still symptomatic at about 12 weeks (Sanford, 2024).
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Bilateral defects</td>
+                    <td>Higher slip risk: involve the sports physician early</td>
+                  </tr>
+                  <tr>
+                    <td>Chronic defect or late presentation</td>
+                    <td>
+                      Defect may be incidental: manage by symptoms and function, keep looking for other
+                      sources
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Slip on imaging</td>
+                    <td>Specialist grading first; urgent referral if high grade</td>
+                  </tr>
+                  <tr>
+                    <td>New neurological symptoms</td>
+                    <td>Stop and escalate urgently</td>
+                  </tr>
+                  <tr>
+                    <td>No progress after about 6 months of structured care</td>
+                    <td>
+                      Surgical review. Pooled surgical return: 88% at any level, mean 6.8 months (Grazina et
+                      al., 2019)
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </details>
+      </section>
+    </main>
+
+    <!-- Shared footer: filled in by site.js -->
+    <div id="site-footer"></div>
+    <script src="site.js"></script>
+  </body>
+</html>
