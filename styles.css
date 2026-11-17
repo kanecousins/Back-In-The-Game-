@@ -831,3 +831,12 @@ details .tw {
     transition: none !important;
   }
 }
+
+/* keep linked sections clear of the sticky header */
+[id] {
+  scroll-margin-top: 72px;
+}
+
+.dom a {
+  color: #fff;
+}
