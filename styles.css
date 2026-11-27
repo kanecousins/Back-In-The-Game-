@@ -840,3 +840,20 @@ details .tw {
 .dom a {
   color: #fff;
 }
+
+/* two-way branch in the decision pathway */
+.flow2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 8px;
+  width: 100%;
+  max-width: 560px;
+}
+.flow2 .fb {
+  max-width: none;
+}
+@media (max-width: 640px) {
+  .flow2 {
+    grid-template-columns: 1fr;
+  }
+}
